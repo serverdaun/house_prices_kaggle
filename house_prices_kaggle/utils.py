@@ -38,10 +38,3 @@ class Utils:
         outliers_count = len(outliers)
 
         return outliers_count
-
-    @staticmethod
-    def create_hist_plot(df: pd.DataFrame, column: pd.DataFrame.columns) -> None:
-        plt.figure(figsize=(8, 6))
-        sns.histplot(data=df, x=column, stat='count')
-        plt.title(f'Histogram of {column}')
-        plt.show()
