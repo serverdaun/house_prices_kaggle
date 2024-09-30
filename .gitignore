@@ -124,7 +124,7 @@ tensorboard/
 # Model files
 *.h5
 *.hdf5
-*.pkl
+# *.pkl
 *.model
 *.ckpt
 
